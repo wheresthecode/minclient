@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CTextParser.h" />
+    <ClInclude Include="CTexture.h" />
+    <ClInclude Include="CTextureGL.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="ForceInline.h" />
+    <ClInclude Include="MinClient.h" />
+    <ClInclude Include="NetworkStuff.h" />
+    <ClInclude Include="OpenGLES2stuff.h" />
+    <ClInclude Include="OpenGLstuff.h" />
+    <ClInclude Include="SDLstuff.h" />
+    <ClInclude Include="CVector2.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="CVector3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="lz4-r123\lz4.h">
+      <Filter>lz4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CTextParser.cpp" />
+    <ClCompile Include="CTexture.cpp" />
+    <ClCompile Include="CTextureGL.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="MinClient.cpp" />
+    <ClCompile Include="NetworkStuff.cpp" />
+    <ClCompile Include="OpenGLES2stuff.cpp" />
+    <ClCompile Include="OpenGLstuff.cpp" />
+    <ClCompile Include="SDLstuff.cpp" />
+    <ClCompile Include="CVector2.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="CVector3.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4-r123\lz4.c">
+      <Filter>lz4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="math">
+      <UniqueIdentifier>{2a84cbba-c5e4-4b75-b5b5-2546a457cbfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lz4">
+      <UniqueIdentifier>{4270c80a-74b5-4e29-80d4-8a11b4c429b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
